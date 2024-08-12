@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddCustomerFormController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#090a0a" height="68.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <Label layoutX="186.0" layoutY="21.0" text="Add Customer Form" textFill="#fffbfb">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtID" layoutX="172.0" layoutY="119.0" prefHeight="25.0" prefWidth="276.0" promptText="ID" />
+      <TextField fx:id="txtname" layoutX="172.0" layoutY="157.0" prefHeight="25.0" prefWidth="276.0" promptText="Name" />
+      <TextField fx:id="txtAdress" layoutX="172.0" layoutY="194.0" prefHeight="25.0" prefWidth="276.0" promptText="Adress" />
+      <TextField fx:id="txtSalary" layoutX="172.0" layoutY="228.0" prefHeight="25.0" prefWidth="276.0" promptText="Salary" />
+      <TextField fx:id="txtNumber" layoutX="172.0" layoutY="265.0" prefHeight="25.0" prefWidth="276.0" promptText="Contact Number" />
+      <Button layoutX="493.0" layoutY="349.0" mnemonicParsing="false" onAction="#btnAddOnAction" text="Add" />
+      <Button layoutX="421.0" layoutY="349.0" mnemonicParsing="false" text="Update" />
+      <Button layoutX="357.0" layoutY="349.0" mnemonicParsing="false" text="Delete" />
+      <Button layoutX="300.0" layoutY="349.0" mnemonicParsing="false" text="Search" />
+   </children>
+</AnchorPane>
